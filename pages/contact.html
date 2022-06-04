@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- Font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../stylesheet/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__logo">
+          <a href="../index.html">
+            <img src="../assets/images/logo.jpg" alt="logo" />
+          </a>
+        </div>
+        <label for="menu" class="header__burguerMenu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu">
+        <nav class="header__menu">
+          <label for="menu" class="header__closeMenu">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </label>
+          <ul>
+            <li id="header__menu--itemGallery">
+              <a href="gallery.html">Galería</a>
+              <ul>
+                <li><a href="gallery.html#grafito">grafito</a></li>
+                <li><a href="gallery.html#tinta">tinta</a></li>
+                <li><a href="gallery.html#tattoo">tattoo</a></li>
+              </ul>
+            </li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="shop.html">Tienda</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main class="contact__mainContainer">
+        <form action="" class="contact__form">
+            <h2>Escríbeme</h2>
+            <input type="text" name="nombre" placeholder="Nombre*" required>
+            <input type="text" name="apellido" placeholder="Apellido*" required>
+            <input type="email" name="email" placeholder="Email*" required>
+            <textarea name="mensaje" placeholder="Mensaje" cols="30" rows="10"></textarea>
+            <div class="contact__form--buttonsContainer">
+              <button type="reset" class="button button__reset">Limpiar</button>
+              <button type="submit" class="button buttton__submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer__socialMedia-container">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="logoWp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
