@@ -2,8 +2,8 @@ let estatura
 let peso
 debugger
 do{
-    estatura = parseFloat(prompt("ingrese su estatura en metros"));
-    peso = parseFloat(prompt("ingrese su peso en kilogramos"));
+    estatura = parseFloat(prompt("ingrese su estatura en metros ( Ej: 1.70) "));
+    peso = parseFloat(prompt("ingrese su peso en kilogramos (Ej: 70) "));
     
 }while(estatura == " " || peso == " " || isNaN(estatura) || isNaN(peso))
 
